@@ -1,0 +1,19 @@
+{
+  "name": "node_js",
+  "version": "1.0.0",
+  "description": "Covalence NodeJS Lab",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NSquale21/node-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NSquale21/node-js/issues"
+  },
+  "homepage": "https://github.com/NSquale21/node-js#readme"
+}
