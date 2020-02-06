@@ -13,7 +13,7 @@ rp('https://reddit.com/r/popular.json')
 		}
 	});
 	
-	fs.writeFile(path.join(__dirname, './popular-articles.json'), JSON.stringify(popularArticles), err => {
+	fs.writeFile(path.join(__dirname, './popular-articles.json'), JSON.stringify(popularArticles, null, 2), err => {
 		if (err) console.log(err); 
 	});
 }).catch(err => console.log(err));
